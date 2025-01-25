@@ -14,5 +14,6 @@ function geosky_theme_setup() {
     register_nav_menus( array(
         'primary' => __( 'Primary Menu', 'geosky-theme' ),
     ) );
+    add_theme_support('title-tag');
 }
 add_action( 'after_setup_theme', 'geosky_theme_setup' );

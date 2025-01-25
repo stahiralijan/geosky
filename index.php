@@ -11,7 +11,7 @@
 
 <!-- Services Section -->
 <section class="py-16">
-    <div class="container mx-auto">
+    <div class="container mx-auto max-w-9xl">
         <h3 class="text-3xl font-bold text-center">Our Services</h3>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
             <div class="bg-white p-6 shadow-lg rounded-lg">
