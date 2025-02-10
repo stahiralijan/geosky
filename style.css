@@ -127,4 +127,8 @@ Text Domain: geo-sky-theme
     border: 1px solid white;
     padding: 0 10px;
   }
+
+  .lp-archive-courses .course-detail-info::after {
+    display:none;
+  }
 }
