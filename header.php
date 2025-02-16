@@ -14,7 +14,13 @@
     <!-- Header -->
     <header class="bg-blue-600 text-white">
         <div class="container mx-auto flex justify-between items-center p-4">
-            <h1 class="text-2xl font-bold"><?php bloginfo('name'); ?></h1>
+            <div class="flex items-center">
+                <?php the_custom_logo(); ?>
+                <a href="<?php echo esc_url(home_url('/')); ?>" class="site-logo ml-3">
+                    <h1 class="text-2xl font-bold inline-block"><?php bloginfo('name'); ?></h1>
+                </a>
+            </div>
+
             <nav>
                 <button class="mobile-menu-icon">
                     ☰
