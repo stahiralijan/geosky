@@ -127,6 +127,17 @@ Text Domain: geo-sky-theme
     border: 1px solid white;
     padding: 0 10px;
   }
+
+  .lp-archive-courses .course-detail-info::after {
+    display:none;
+  }
+}
+
+.custom-logo {
+    max-width: 120px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 15px;
 }
 
 .custom-logo {
